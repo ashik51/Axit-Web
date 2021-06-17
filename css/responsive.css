@@ -1,0 +1,358 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+
+    #banner .trialinfo {
+        flex-basis: 50%;
+    }
+
+    #pricing .col-3 {
+        width: 300px;
+    }
+
+    #standard .standardinfo {
+        padding: 50px 0px 0px 40px;
+    }
+
+    #review .col-3 {
+        padding: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        max-width: 760px;
+    }
+    #banner {
+        padding: 80px 0px;
+    }
+
+    #banner .bannerinfo {
+        flex-basis: 49%;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    #banner .download {
+        margin-bottom: 0px;
+    }
+
+    .icons i {
+        padding: 0px 15px;
+    }
+
+    .tab_info {
+        flex-basis: 76%;
+    }
+
+    #tabbing .tabtext {
+        margin-right: 10px;
+    }
+    
+    .tab_info p {
+        margin: 10px 0px;
+    }
+
+    #sub_section img {
+        max-width: 350px;
+    }
+
+    #sub_section .colsub {
+        margin-right: 0px;
+        margin-left: 31px;
+    }
+
+    #sub_section .subtexts {
+        margin-left: 25px;
+    }
+
+    #standard img {
+        max-width: 350px;
+    }
+
+    #standard .standardinfo {
+        padding: 50px 26px 0px 5px;
+    }
+    
+    #pricing .col-3 {
+        width: 230px;
+    }
+
+    #review .col-3 {
+        padding-right: 25px;
+    }
+    
+    #review .lastreview {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    header {
+        padding: 10px 0px 10px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+
+    nav ul li {
+        padding: 5px 0px 0px;
+        padding-left: 17px;
+    }
+
+    nav ul .firstli {
+        padding-left: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    #banner {
+        padding: 50px 0px;
+    }
+
+    .bannerinfo img {
+        width: 120px;
+    }
+
+    #banner .bannerinfo {
+        flex-basis: 100%;
+    }
+
+    #banner .trialinfo {
+        flex-basis: 100%;
+    }
+
+    .logininfo {
+        padding: 0px 20px;
+    }
+
+    #banner .bannerhr {
+        margin: 15px 0px;;
+    }
+
+    #banner .download {
+        margin-bottom: 30px;
+    }
+
+    .trialinfo form {
+        min-width: 0px;
+        display: block;
+    }
+
+    #social .socialrow {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #social .icons i {
+        font-size: 25px;
+        padding: 20px 6px 0px;
+    }
+
+    #tabbing {
+        padding: 40px 0px;
+    }
+
+    .tab_box {
+        width: 100%;
+    }
+
+    .tab_box ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tab_box ul li {
+        flex-basis: 33%;
+        margin: 0px 1px;
+        padding: 15px 0px;
+        max-height: 50px;
+        
+    }
+
+    #tabbing .row2 {
+        flex-direction: column;
+    }
+
+    .tab_info {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    #tabbing .download {
+        margin: 10px 0px 15px;
+    }
+
+    #sub_section {
+        padding: 40px 0px;
+    }
+
+    #sub_section .sub {
+        flex-direction: column;
+    }
+
+    #sub_section .col-2 {
+        flex-basis: 100%;
+    }
+
+    #sub_section .col-2 img {
+        width: 100%;
+        /* max-width: 10000px; */
+    }
+
+    #sub_section .colsub {
+        margin-left: 0px;
+    }
+
+    #sub_section .sub {
+        align-items: center;
+    }
+
+
+
+    #standard {
+        padding: 40px 0px;
+    }
+
+    #standard .standardrow{
+        flex-direction: column;
+    }
+
+    #standard .col-2 {
+        flex-basis: 100%;
+    }
+
+    #standard .col-2 img {
+        width: 100%;
+        /* max-width: 10000px; */
+    }
+
+    #standard .standardrow {
+        align-items: center;
+    }
+
+    #standard .standardinfo {
+        padding: 0px 26px 0px 5px;
+    }
+
+
+
+
+    #awesome {
+        padding: 40px 0px;
+    }
+
+    #awesome .row {
+        flex-direction: column;
+    }
+
+    #awesome .rowawesome .lastcol-3 {
+        padding-right: 0px;
+    }
+
+    #awesome .rowawesome .col-3 {
+        padding-right: 0px;
+        padding-bottom: 25px;
+    }
+
+    #awesome .whyawesome p {
+        padding-bottom: 40px;
+    }
+
+    .orangehr {
+        margin: 10px 0px
+    }
+
+
+
+    #pricing {
+        padding: 40px 0px 20px;
+    }
+
+    #pricing .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #pricing .col-3 {
+        flex-basis: 100%;
+        padding: 30px 0px;
+        max-width: 350px;
+    }
+
+    #pricing .pricingrow {
+        margin-bottom: 0px;
+    }
+
+    #pricing .extrafeature {
+        margin-top: 0px;
+    }
+
+
+
+
+    #review {
+        padding: 40px 0px;
+    }
+    
+    #review .row {
+        flex-direction: column;
+    }
+
+    #review .col-3 {
+        padding-right: 0px;
+    }
+
+
+
+
+    #banner2 {
+        max-height: 230px;
+        padding: 30px 0px;
+    }
+    #banner2 .thehr {
+        margin: 10px 0px;
+    }
+
+    #banner2 .download {
+        margin: 15px 0px;
+    }
+
+
+
+
+    #contact {
+        padding: 40px 0px;
+    }
+
+    #contact .row {
+        flex-direction: column;
+    }
+
+    #contact .infocol input,
+    #contact .msgcol textarea {
+        width: 100%;
+        padding: 13px;
+    }
+
+
+
+
+
+
+    footer i {
+        padding: 0px 9px;
+    }
+}
