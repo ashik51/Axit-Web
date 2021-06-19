@@ -19,11 +19,11 @@
 
     <header id="header">
         <div class="container headercontainer">
-            <nav>
+            <nav id="nav">
                 <div class="logo">
                     <img src="images/logo.png" alt="logo">
                 </div>
-                <ul>
+                <ul id="ul">
                     <li class="firstli"><a href="#default">Features</a></li>
                     <li><a href="#tabbing">About</a></li>
                     <li><a href="#pricing">Pricing</a>
@@ -31,6 +31,9 @@
                     <li><a href="#review">Reviews</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <div class="menuicon">
+                    <img onclick="toggleMenu()" src="images/menu.png" alt="" width="30px">
+                </div>
             </nav>
         </div>
     </header>
@@ -95,19 +98,19 @@
                 <div class="col-2 tab_box">
                     <ul>
                         <li class="active_tab">Tab #1</li>
-                        <li>Tab #2</li>
+                        <li onclick="tabFunction()">Tab #2</li>
                         <li>Tab #3</li>
                     </ul>
                 </div>
                 <div class="col-2 tab_info">
                     <div class="tabtext">
-                        <h3>Tabs with soft transitioning effect.</h3>
+                        <h3 id="demoJs">Tabs with soft transitioning effect.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                             Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales
                             pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br><br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> bibendum
                             laoreet.</p>
-                        <button class="download download2">Download</button>
+                        <button class="download download2" onclick="myDown">Download</button>
                     </div>
                     <div class="tabimg"><img src="images/tabright.png" alt=""></div>
                 </div>
@@ -424,19 +427,7 @@
     </footer>
 
 
-    <script>
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-                document.getElementById("header").style.padding = "10px 0px";
-
-            } else {
-                document.getElementById("header").style.padding = "25px 0px";
-            }
-        }
-
-    </script>
+    <script src="js/index.js"></script>
 
 
 
