@@ -63,6 +63,10 @@ nav ul li a:hover {
     color: #ff8b38;
 }
 
+.menuicon {
+    display: none;
+}
+
 
 /* ----- Header Ends ----- */
 
@@ -80,9 +84,9 @@ nav ul li a:hover {
 .infosection {
     display: flex;
     justify-content: space-between;
-    /* padding: 110px 0px; */
     flex-wrap: wrap;
 }
+
 .bannerinfo {
     flex-basis: 50%;
 }
@@ -781,3 +785,7 @@ input, input:focus{
         -webkit-box-shadow: none;
 }
 
+
+.ki {
+    color: black;
+}

@@ -122,6 +122,10 @@
         padding: 50px 0px;
     }
 
+    .infosection {
+        justify-content: flex-end;
+    }
+
     .bannerinfo img {
         width: 120px;
     }
@@ -149,6 +153,7 @@
     .trialinfo form {
         min-width: 0px;
         display: block;
+        margin: 0px auto;
     }
 
     #social .socialrow {
@@ -354,5 +359,45 @@
 
     footer i {
         padding: 0px 9px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-basis: 100%;
+    }
+    
+    ul {
+        list-style-type: none;
+        text-align: center;
+        flex-basis: 33.33333%;
+        margin-top: 60px;
+        display: none;
+        z-index: 1000;
+    }
+    
+    nav ul li {
+        display: block;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    
+    .logo {
+        flex-basis: 33.33333%;
+    }
+
+    .menuicon {
+        flex-basis: 33.33333%;
+        text-align: right;
+        display: block;
+        position: relative;
+        top: 2px;
+    }
+
+    .menuicon img {
+        cursor: pointer;
     }
 }
